@@ -1,0 +1,36 @@
+h1
+{
+  font-size:45px;
+  text-decoration: double;
+  text-decoration-color:green;
+  background-color: blue;
+  color: black;
+  text-align: center;
+}
+table
+{
+  justify-content: center;
+}
+table th
+{
+ text-align: center;
+ background-color: green;
+ color: black;
+ font-size: 28px;
+}
+table td
+{
+  border: 1px solid black;
+  padding: 12px 22px;
+  font-size: 18px;
+  text-align: center;
+  width:50%;
+}
+table tr:nth-child(even) td
+{
+  background-color: pink;
+}
+table tr:nth-child(odd) td
+{
+  background-color:yellow;
+}
